@@ -2,7 +2,7 @@
 namespace Mindweb\Log\Repository;
 
 use Doctrine\DBAL\Connection;
-use Mindweb\Config\Repository;
+use Mindweb\Db\Repository;
 
 class MysqlLogRepository implements Repository, LogRepository
 {

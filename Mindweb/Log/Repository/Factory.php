@@ -1,7 +1,7 @@
 <?php
 namespace Mindweb\Log\Repository;
 
-use Mindweb\Config\AbstractRepositoryFactory;
+use Mindweb\Db\AbstractRepositoryFactory;
 
 class Factory extends AbstractRepositoryFactory
 {
@@ -21,5 +21,13 @@ class Factory extends AbstractRepositoryFactory
         return array(
             'log' => 'Log'
         );
+    }
+
+    /**
+     * @return string
+     */
+    protected function getVendor()
+    {
+        return 'Mindweb';
     }
 }

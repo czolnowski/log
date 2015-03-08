@@ -10,7 +10,12 @@
         }
     ],
     "require": {
-        "mindweb/config": "*",
+        "mindweb/db": "1.0.*",
         "doctrine/dbal": "~2.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mindweb\\Log\\": "src"
+        }
     }
 }
