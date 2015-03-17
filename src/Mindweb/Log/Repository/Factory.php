@@ -10,7 +10,7 @@ class Factory extends AbstractRepositoryFactory
      */
     protected function getNamespace()
     {
-        return 'Log';
+        return sprintf('Log%s', ucfirst($this->connection->getType()));
     }
 
     /**

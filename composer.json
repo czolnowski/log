@@ -10,8 +10,7 @@
         }
     ],
     "require": {
-        "mindweb/db": "1.0.*",
-        "doctrine/dbal": "~2.2"
+        "mindweb/db": "1.0.*"
     },
     "autoload": {
         "psr-0": {
